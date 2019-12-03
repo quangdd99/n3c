@@ -1,0 +1,30 @@
+<form id="XForm" name="XForm" method="post" action="/GponForm/LoginForm">
+<input type="hidden" id="XWebPageName" name="XWebPageName" value="index">
+<ul>
+	<li class="l_title"><span id="XS1">GPON Home Gateway Login</span></li>
+</ul>
+<ul>
+	<li class="l_pad"></li>
+</ul>
+<ul>
+	<li class="l_user"><span style="width: 150px;" id="XS2">Username</span></li>
+	<li class="l_user"><input id="username" name="username" type="text" style="width: 120px;" maxlength="24" onkeypress="OnUserEnter(event);"></li>
+</ul>
+<ul>
+	<li class="l_pad"></li>
+</ul>
+<ul>
+	<li class="l_pass"><span style="width: 150px;" id="XS3">Password</span></li>
+	<li class="l_pass"><input id="password" name="password" type="password" style="width: 120px;" maxlength="24" onkeypress="OnEnter(event);"></li>
+</ul>
+<ul>
+	<li class="l_pad"></li>
+</ul>
+<ul>
+	<li class="l_foot1"></li>
+	<li class="l_foot2"><input id="login" name="login" type="button" value="Login" onclick="OnLogin();"></li>
+	<li class="l_foot3"></li>
+	<li class="l_foot4"><input id="reset" type="button" value="Reset" onclick="OnReset();"></li>
+	<li class="l_foot5"></li>
+</ul>
+</form>
